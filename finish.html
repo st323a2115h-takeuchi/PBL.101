@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+    <title>ログイン</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<link rel="stylesheet" href="rogdondon.css">
+</head>
+
+
+	<body class="home">
+<header>
+	<header>
+		<center>
+			<h1>ログイン</h1>
+		</center>
+	</header>
+	<style>
+		header {
+			position: fixed;
+			color: white;
+			width: 100%;
+			height: 80px;
+			background-color: #ff0000;
+		}
+	</style>
+	
+	<br>
+	<br>
+	<br>
+	
+	<body>
+		<div>
+			<!--フォーム-->
+			<form name="login_form">
+				<center>
+					<h1 class="contact-title">ログイン</h1>
+					<p>さっさと押せい！！</p>
+				</center>
+				<div>
+	
+					<center>
+						<div>
+							<input type="id" name="id" placeholder="ID">
+						</div>
+						<br>
+						<div>
+							<input type="password" name="pass" placeholder="Password" onchange="nextPage()">
+						</div>
+					</center>
+					<br></br>
+					
+				</div>
+				<center>
+				<table>
+				
+			   <td> <center>  <a href="tyuusen.html" class="button09">ログイン</a> </center></td>
+			   <td> <right>  <a href="sinki.html" class="button09">新規登録</a> </right></td>
+				</table>
+				</center>
+			</form>
+	
+			<!--ログイン処理-->
+			<script language="JavaScript" type="text/javascript">
+				function nextPage() {
+					id = document.login_form.id.value
+					pwd = document.login_form.pass.value;
+					location.href = id + pwd + ".html";
+				}
+			</script>
+	<td><left>  <a href="events.html" class="button09">戻る</a> </left></td>
+		</div>
+	</body>
+	
+	</html>
+<!--/#contents-->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
