@@ -1,0 +1,53 @@
+.button09 {
+    display: inline-block;
+    background-color: #fff;
+    border: solid 2px #0000ff;
+    color: #0000ff;
+    border-radius: 10px;
+    padding: 50px 100px;
+    text-decoration: none;
+    font-size: 3em;     
+    transition: all .3s ease 0s;
+  } 
+  .button09:hover {
+    color: #0000ff;
+    background-color: #fff;
+    transform: scale(1.2);
+  }
+  p{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+www{
+    color:#ff0000
+}
+/*主な共通部分は省略*/
+
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+  }
+  
+  a.btn--orange:hover {
+    color: #fff;
+    background: #f56500;
+  }
+  
+  a.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  a.btn--circle {
+    border-radius: 50%;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+  }
+  body {
+    background-image: url("images/syuutyuu_waifu2x_art_noise1_scale.png");
+    background-size: cover;
+  }
+  .resizeimage img { width: 100%; }
+  
