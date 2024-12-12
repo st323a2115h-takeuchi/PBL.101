@@ -82,7 +82,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	-webkit-text-size-adjust: none;
-	background: #f2f1f3 url('../images/bg.png') repeat center top / 150px;	/*背景色、背景壁紙の読み込み。壁紙の幅を150pxに指定してリピート。*/
+	
 	color: #333;		/*文字色*/
 	line-height: 2;		/*行間*/
 	animation: opa1 0.2s 0.5s both;	/*0.5秒待機後、0.2秒かけてフェードイン表示*/
