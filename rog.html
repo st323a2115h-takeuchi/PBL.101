@@ -50,7 +50,121 @@
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-       
+       /*Font Awesomeの読み込み
+---------------------------------------------------------------------------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+/*Google Fontsの読み込み
+---------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/*slick.cssの読み込み
+---------------------------------------------------------------------------*/
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+
+/*テンプレート専用cssファイルの読み込み
+---------------------------------------------------------------------------*/
+
+.button09 {
+    display: inline-block;
+    background-color: #fff;
+    border: solid 2px #0000ff;
+    color: #0000ff;
+    border-radius: 10px;
+    padding: 20px 5px;
+    text-decoration: none;
+    font-size: 2em;     
+    transition: all .3s ease 0s;
+  } 
+  .button09:hover {
+    color: #0000ff;
+    background-color: #fff;
+    transform: scale(1.2);
+  }
+  p{
+    background-color: black;
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    p{
+        background-color: black;
+         color:green;
+     }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    p{
+        background-color: black;
+         color:red;
+     }
+ }
+ html{
+    font-size: 25px;
+    font-family: 'HGP行書体';
+}
+.test{
+  font-size: 3rem;
+}
+.hoge{
+  font-size: 1rem;
+}
+  
+  @media only screen and (max-width: 480px){
+    html{
+      font-size: 13px;
+  }
+
+  }
+  
+  .clearfix::after {content: "";display: block;clear: both;}
+.color-check, .color-check a {color: #ff0000 !important;}
+.l {text-align: left !important;}
+.c {text-align: center !important;}
+.r {text-align: right !important;}
+.ws {width: 95%;display: block;}
+.wl {width: 95%;display: block;}
+.mb0 {margin-bottom: 0px !important;}
+.mb30 {margin-bottom: 30px !important;}
+.mb5vw {margin-bottom: 5vw !important;}
+.look {display: inline-block;padding: 0px 10px;background: #fff;color: #333;border: 1px solid #ccc; border-radius: 3px;margin: 5px 0; word-break: break-all;}
+.small {font-size: 0.75em;}
+.large {font-size: 2em; letter-spacing: 0.1em;}
+.pc {display: none;}
+.dn {display: none !important;}
+.block {display: block !important;}
+
+	/*画面幅900px以上の追加指定*/
+	@media screen and (min-width:900px) {
+
+	.ws {width: 48%;display: inline;}
+	.sh {display: none;}
+	.pc {display: block;}
+
+	}
+    section{
+        font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+        color:rgb(0, 0, 0)
+    }
+button{
+  display: inline-block;
+  background-color: #fff;
+  border: solid 2px #0000ff;
+  color: #0000ff;
+  border-radius: 10px;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-size: 2em;     
+  transition: all .3s ease 0s;
+  font-family: 'HGP行書体';
+}
+button:hover{
+  color: #0000ff;
+  background-color: #fff;
+  transform: scale(1.2);
+}
+  
        
     </style>
 
@@ -80,7 +194,7 @@
                     <td class="center">
                         <input type="submit" class="button09" value="ログイン">
                         <a href="sinki.html" class="button09">新規登録</a>
-                        <a href="events.html" class="button09">戻る</a>
+                        <a href=".html" class="button09">戻る</a>
                     </td>
                 </tr>
             </table>
