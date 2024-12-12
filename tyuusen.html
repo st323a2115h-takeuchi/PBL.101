@@ -16,6 +16,59 @@
     </center>
 </header>
 <style>
+    .button09 {
+    display: inline-block;
+    background-color: #fff;
+    border: solid 2px #0000ff;
+    color: #0000ff;
+    border-radius: 10px;
+    padding: 50px 100px;
+    text-decoration: none;
+    font-size: 3em;     
+    transition: all .3s ease 0s;
+  } 
+  .button09:hover {
+    color: #0000ff;
+    background-color: #fff;
+    transform: scale(1.2);
+  }
+  p{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+www{
+    color:#ff0000
+}
+/*主な共通部分は省略*/
+
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+  }
+  
+  a.btn--orange:hover {
+    color: #fff;
+    background: #f56500;
+  }
+  
+  a.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  a.btn--circle {
+    border-radius: 50%;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+  }
+  body {
+    background-image: url("images/syuutyuu_waifu2x_art_noise1_scale.png");
+    background-size: cover;
+  }
+  .resizeimage img { width: 100%; }
+  
     header {
         position: fixed;
         color: rgb(0, 0, 0);
@@ -54,7 +107,20 @@
             <td><img  width="60" src="images/tare.png" alt="" align="left"></td>
             <td><img  width="40" src="images/tare.png" alt="" align="left"></td>
             <td><img  width="20" src="images/tare.png" alt="" align="left"></td>
-            <td><senter>  <div style="text-align: center;"><a href="kamekame.html" style="background: #000000; color: #ffffff; width: 120px; height: 120px; box-shadow: 5px 5px 10px #cccccc; border-radius: 50vh; padding: 0; line-height:1; display: inline-block; position: relative;"><span style="position: absolute; top: 50%; left: 0; right: 0;transform: translateY(-50%); margin: auto; padding: 0 1em; line-height: 1.2;">抽選<br>開始！！</span></a></div></senter></td>
+            <td><senter>  <div style="text-align: center;"><a onclick="navigateRandom()" style="background: #000000; color: #ffffff; width: 120px; height: 120px; box-shadow: 5px 5px 10px #cccccc; border-radius: 50vh; padding: 0; line-height:1; display: inline-block; position: relative;"><span style="position: absolute; top: 50%; left: 0; right: 0;transform: translateY(-50%); margin: auto; padding: 0 1em; line-height: 1.2;">抽選<br>開始！！</span></a></div></senter></td>
+            <script>
+              //失敗したランダム遷移
+          //これはボタンを押すことにより遷移いたします。
+          function navigateRandom() {
+              const urls = [
+                  "https://st323a2115h-takeuchi.github.io/tyuusen/",
+                  "https://st323a2115h-takeuchi.github.io/tyuusen/hazure.html",
+                  
+              ];
+              const randomUrl = urls[Math.floor(Math.random() * urls.length)];
+              window.location.href = randomUrl;
+          }
+      </script>
             <td><img  width="20" src="images/tare.png" alt="" align="left"></td>
             <td><img  width="40" src="images/tare.png" alt="" align="left"></td>
             <td><img  width="60" src="images/tare.png" alt="" align="left"></td>
