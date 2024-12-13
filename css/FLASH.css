@@ -35,7 +35,8 @@
     0% {opacity:0;}
     100% {opacity:1;}
 }
-.resizeimage img { width: 100%; }
+.resizeimage img { width: 100%; 
+    height: 100vh;}
 .button02 {
     background-color: #d9ff00;
     border: solid 2px #000000;
@@ -77,5 +78,9 @@
         font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
         color:rgb(0, 0, 0)
     }
+    body {
+        
+        background-size: cover;
+      }
 
   
